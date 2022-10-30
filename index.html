@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chatset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="slideshow.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav></nav>
+        <div class="menu-area">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                
+                <li>Topics
+                    <ul class="dropdown">
+                        <li><a href="cryptography.html">Cryptography</a></li>
+                        <li><a href="encryption.html">Encryption</a></li>
+                        <div class="bottom"><li><a href="hashing.html">Hashing</a></li></div>
+                    </ul>
+                </li>
+                
+                <li><a href="applications.html">Applications</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <header>
+            <h1>Learn about Cryptography</h1>
+        </header>
+
+        <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+                <div class="text">Cryptography</div>
+                <a href="cryptography.html"><img src="cryptimg.jpg" style="width:100%"></a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="text">Encryption</div>
+                <a href="encryption.html"><img src="encryption.jpg" style="width:100%"></a>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="text">Hashing</div>
+                <a href="hashing.html"><img src="hashing.jpg" style="width:100%"></a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="text">Applications</div>
+                <a href="applications.html"><img src="applications.jpg" style="width:100%"></a>
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        
+    </main>
+
+    <script src="JS/javascript.js"></script>
+
+</body>
+</html>
